@@ -1027,3 +1027,19 @@
 	setupProperties()
 		..()
 		setProperty("movespeed", 0.8)
+
+/obj/item/gun/kinetic/gungun //meesa jarjar binks
+	name = "Gun"
+	desc = "A gun that shoots... something. It looks like a modified grenade launcher."
+	icon_state = "gungun"
+	item_state = "gungun"
+	w_class = 3
+	caliber = 3//fuck if i know lol, derringers are about 3 inches in size so ill just set this to 3
+	max_ammo_capacity = 6 //6 guns
+	force = 5
+
+	New()
+		ammo = new /obj/item/ammo/bullets/gun
+		ammo.amount_left = 6 //spawn full please
+		current_projectile = new/datum/projectile/bullet/gun
+		..()

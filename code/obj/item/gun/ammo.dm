@@ -1000,3 +1000,19 @@
 	w_class = 3
 	delete_on_reload = 1
 	sound_load = 'sound/weapons/gunload_heavy.ogg'
+
+/obj/item/ammo/bullets/gun
+	name = "Briefcase of guns"
+	desc = "A briefcase full of guns. It's locked tight..."
+	sname = "Guns"
+	amount_left = 6
+	max_amount = 6
+	icon_state = "gungun"
+	throwforce = 2
+	w_class = 1.0
+	throw_speed = 4
+	throw_range = 20
+	ammo_type = new /datum/projectile/bullet/gun
+	caliber = 3 //idk what caliber to actually make it but apparently its diameter of the tube so i figure it should be 3 inches????
+	delete_on_reload = 1
+
