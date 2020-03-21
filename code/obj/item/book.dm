@@ -3286,6 +3286,36 @@ soon the light of the unwaking will rise and the shining ones will not be prepar
 			boutput(wearer, "[voidMessage]")
 		return
 
+/obj/item/paper/book/testing_1
+	name = "testing 1"
+	desc = "testtest"
+	icon_state = "torpedo"
+	info = {"testinggggggggggggggg 1"}
+
+/obj/item/paper/book/testing_2
+	name = "testing 2"
+	desc = "test"
+	icon_state = "cargoguide"
+	info = {"testing testing testing testing"}
+
+/obj/item/paper/book/custom/testing_3
+	name = "testing 3"
+	desc = "afnsanf"
+	book_cover = "redbook"
+	ink_color = "#FE2200"
+	info = {"ass ass ass ass day day day day"}
+
+/obj/item/paper/book/custom/testing_4
+	name = "testing 4"
+	desc = "screaaaaaaaaaaaaam"
+	custom_cover = 1
+	cover_color = "#5566FF"
+	cover_symbol = "duck"
+	cover_flair = "spinecover"
+	flair_color = "#FF6655"
+	flair_colorable = 1
+	info = {"yo bitch im a fuckin duck"}
+
 /obj/item/paper/book/custom //custom book parent, just to avoid cluttering up normal books
 	var/custom_cover = 0 //if 1, goes thru with the build custom icon process
 	var/book_cover = "" //what cover does our book have
@@ -3294,9 +3324,13 @@ soon the light of the unwaking will rise and the shining ones will not be prepar
 	var/symbol_color = "#FFFFFF" //white by default, if our symbol is colourable, what colour is it?
 	var/cover_flair = "" //whats the "flair" thing on the book?
 	var/flair_color = "#FFFFFF" //white by default, whats the color of the flair (if its colorable)?
-	var/symbol_colorable = 0 //this is a bugfix for non-colourable symbols being coloured
-	var/flair_colorable = 0 //this is a bugfix for non-colourable flairs being coloured
+	var/symbol_colorable = 0 //set this to 1 if your symbol is colourable
+	var/flair_colorable = 0 //set this to 1 if your flair is colourable
 	var/ink_color = "#000000" //what color is the text written in?
+
+	New()
+		..()
+		src.build_custom_book()
 
 	proc/build_custom_book()
 		if (src.custom_cover)
@@ -3317,8 +3351,10 @@ soon the light of the unwaking will rise and the shining ones will not be prepar
 					I.color = flair_color
 				src.UpdateOverlays(I, "flair")
 		else
-			if (book_cover == "bible")
+			if (src.book_cover == "bible")
 				src.icon = 'icons/obj/storage.dmi'
+			else if (!src.book_cover)
+				src.book_cover = "book0"
 			src.icon_state = src.book_cover
 		src.info = "<span style=\"color:[src.ink_color]\">[src.info]</span>"
 

@@ -25,7 +25,7 @@
 	var/book_info = "" //what text will the made books have?
 	var/book_info_raw = "" // raw version of the text, for editing.
 	var/book_name = "" //whats the made books name?
-	var/info_len_lim = 64 //64 character titles/author names max
+	var/const/info_len_lim = 64 //64 character titles/author names max
 	var/book_author = "" //who made the book?
 	var/ink_color = "#000000" //what color is the text written in?
 	var/list/cover_designs = list("Grey", "Dull red", "Red", "Blue", "Green", "Yellow", "Dummies", "Robuddy", "Skull", "Latch", "Bee",\

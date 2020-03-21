@@ -340,6 +340,7 @@
 
 /obj/bookshelf/persistent //there was a big comment talking about how this worked but it was literally causing this to not compile so its gone now sorry
 	desc = "This bookshelf doesn't get cleaned out between shifts. Neat!"
+	var/list/debug_list = list()
 
 	New()
 		..()
@@ -358,13 +359,13 @@
 			build_old_contents(old_contents)
 			fdel(file_name) //so we dont end up with a really weird long file, dont worry, it makes a new one in save_curr_contents()
 
-	proc/file_curr_books(var/list/curr_contents)
-		if (!curr_contents.len)
+	proc/file_curr_books()//var/list/curr_contents
+		if (!src.debug_list.len)
 			return
 		var/file_name = "data/persistent_bookshelf.json"
 		if(fexists(file_name))
 			fdel(file_name) //we rly dont want a duplicate, or to accidentally output twice to the file, it could screw the whole thing up
-			text2file(json_encode(curr_contents), file_name)
+		text2file(json_encode(src.debug_list), file_name)
 
 	proc/build_old_contents(var/list/old_contents) //this goes and takes our giant weird list and makes it into books
 		if (old_contents.len)
@@ -377,7 +378,7 @@
 					B.icon = book_vars["icon"]
 					B.icon_state = book_vars["icon_state"]
 					B.info = book_vars["info"]
-					B.set_loc(src)
+					src.add_to_bookshelf(B)
 				else //so it has to be a custom book now
 					var/obj/item/paper/book/custom/B = new(get_turf(src))
 					B.name = book_vars["name"]
@@ -396,7 +397,8 @@
 					B.symbol_colorable = book_vars["symbol_colorable"]
 					B.flair_colorable = book_vars["flair_colorable"]
 					B.build_custom_book()
-					B.set_loc(src)
+					src.add_to_bookshelf(B)
+			src.update_icon()
 
 	proc/build_curr_contents() //this takes our books and makes it into a giant weird list
 		var/list/curr_contents = list()
@@ -424,8 +426,9 @@
 						book_vars["flair_coverable"] = C.flair_colorable
 					else
 						book_vars["custom_cover"] = 0 //this stops build_old_contents early
-
-			return curr_contents
+					curr_contents.Add(list(book_vars)) 
+			src.debug_list = curr_contents //return curr_contents
+			world.log << json_encode(src.debug_list)
 
 /obj/item/bookshelf_parts
 	name = "bookshelf parts"
