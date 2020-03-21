@@ -1219,7 +1219,7 @@ The copy command is:
 >cp
 </div>
 <p>
-Followed by the original file, and then the destination. Pour éxample:
+Followed by the original file, and then the destination. Pour ï¿½xample:
 <div class="code">
 >cp /home/GMelons/Pictures/butt_png /home/JGrife/Documents
 </div>
@@ -2407,7 +2407,7 @@ several months worth of nutrients for them.
 					<span class="location"><B>Location:</B> Lava moon</span>
 				</p>
 				<p class="description">
-					Denizens of what is referred to as the “lava moon” that do not move or take action towards most stimuli.  Research had been remarkably inconclusive as to the behavioral patterns of these species, with a hypothesis being proposed that they weren't even creatures at all, and were instead conspicuously-shaped rocks.  That is, until one scientist, in a fit of anger, kicked a magma crab in the face during on-station testing, and was promptly pinched directly in the ankle.  After the scientist in question hid behind a bush to escape the creature, the magma crab returned to its previous state of immobility.
+					Denizens of what is referred to as the ï¿½lava moonï¿½ that do not move or take action towards most stimuli.  Research had been remarkably inconclusive as to the behavioral patterns of these species, with a hypothesis being proposed that they weren't even creatures at all, and were instead conspicuously-shaped rocks.  That is, until one scientist, in a fit of anger, kicked a magma crab in the face during on-station testing, and was promptly pinched directly in the ankle.  After the scientist in question hid behind a bush to escape the creature, the magma crab returned to its previous state of immobility.
 				</p>
 
 				<p>
@@ -2415,7 +2415,7 @@ several months worth of nutrients for them.
 					<span class="location"><B>Location:</B> Unknown</span>
 				</p>
 				<p>
-					Somehow, through some crazy genetics shit, a hybrid of the greater domestic space-bee and the PR-6 Robuddy exists.  We don't know how those two things are capable of reproducing with one another, and to be perfectly honest, we really don't want to know.  Tests still need to be run to determine which characteristics of both species these “BeeBuddies” possess.
+					Somehow, through some crazy genetics shit, a hybrid of the greater domestic space-bee and the PR-6 Robuddy exists.  We don't know how those two things are capable of reproducing with one another, and to be perfectly honest, we really don't want to know.  Tests still need to be run to determine which characteristics of both species these ï¿½BeeBuddiesï¿½ possess.
 				</p>
 
 				<p>
@@ -2496,28 +2496,28 @@ Captain Peleg in his gruff voice loudly hailed us from his wigwam, saying he had
 <BR>
 'I mean', he replied, 'he must show his papers.'<BR>
 <BR>
-'Yes,' said Captain Bildad in his hollow voice, sticking his head from behind Peleg’s, out of the wigwam. 'He must show that he’s converted.<BR>
+'Yes,' said Captain Bildad in his hollow voice, sticking his head from behind Pelegï¿½s, out of the wigwam. 'He must show that heï¿½s converted.<BR>
 Son of darkness,' he added, turning to Queequeg, 'art thou at present in communion with any Christian church?'<BR>
 <BR>
-'Why,' said I, 'he’s a member of the first Congregational Church.' Here be it said, that many tattooed savages sailing in Nantucket ships atlast come to be converted into the churches.<BR>
+'Why,' said I, 'heï¿½s a member of the first Congregational Church.' Here be it said, that many tattooed savages sailing in Nantucket ships atlast come to be converted into the churches.<BR>
 <BR>
-'First Congregational Church,' cried Bildad, 'what! that worships in Deacon Deuteronomy Coleman’s meeting-house?' and so saying, taking out<BR>
+'First Congregational Church,' cried Bildad, 'what! that worships in Deacon Deuteronomy Colemanï¿½s meeting-house?' and so saying, taking out<BR>
 his spectacles, he rubbed them with his great yellow bandana handkerchief, and putting them on very carefully, came out of the wigwam, <BR>
 and leaning stiffly over the bulwarks, took a good long look at Queequeg.<BR>
 <BR>
 'How long hath he been a member?' he then said, turning to me; 'not very long, I rather guess, young man.'<BR>
 <BR>
-'No,' said Peleg, 'and he hasn’t been baptized right either, or it would have washed some of that devil’s blue off his face.'<BR>
+'No,' said Peleg, 'and he hasnï¿½t been baptized right either, or it would have washed some of that devilï¿½s blue off his face.'<BR>
 <BR>
-'Do tell, now,' cried Bildad, 'is this Philistine a regular member of Deacon Deuteronomy’s meeting? I never saw him going there, and I pass it every Lord’s day.'<BR>
+'Do tell, now,' cried Bildad, 'is this Philistine a regular member of Deacon Deuteronomyï¿½s meeting? I never saw him going there, and I pass it every Lordï¿½s day.'<BR>
 <BR>
-'I don’t know anything about Deacon Deuteronomy or his meeting,' said I; 'all I know is, that Queequeg here is a born member of the First <BR>
+'I donï¿½t know anything about Deacon Deuteronomy or his meeting,' said I; 'all I know is, that Queequeg here is a born member of the First <BR>
 Congregational Church. He is a deacon himself, Queequeg is.'<BR>
 <BR>
 'Young man,' said Bildad sternly, 'thou art skylarking with me'explain thyself, thou young Hittite. What church dost thee mean? answer me.'<BR>
 <BR>
-Finding myself thus hard pushed, I replied. “I mean, sir, the same ancient Catholic Church to which you and I, and Captain Peleg there,<BR>
-and Queequeg here, and all of us, and every mother’s son and soul of us belong; the great and everlasting First Congregation of this whole <BR>
+Finding myself thus hard pushed, I replied. ï¿½I mean, sir, the same ancient Catholic Church to which you and I, and Captain Peleg there,<BR>
+and Queequeg here, and all of us, and every motherï¿½s son and soul of us belong; the great and everlasting First Congregation of this whole <BR>
 worshipping world; we all belong to that; only some of us cherish some queer crotchets no ways touching the grand belief; in _that_ we all join hands.' <BR>
 <BR>
  </font>
@@ -2931,7 +2931,7 @@ I'm being taken somewhere. I can feel it. Piece by piece, particle by particle, 
 		Overall Status: 27 % healthy 	<br>
 		Damage Specifics: 9  - 14  - 32  - 20  <br>
 		Key: Suffocation / Toxin / Burns / Brute  <br>
-		Body Temperature: 23.5092°C (74.3166°F)  <br>
+		Body Temperature: 23.5092ï¿½C (74.3166ï¿½F)  <br>
 		Blood Pressure: 122/82 (NORMAL)  | Blood level: 500 units <br>
 		1 chemical agent found in Casey Spark. <br>
 		epinephrine - 5  <br>
@@ -3033,10 +3033,10 @@ I'm being taken somewhere. I can feel it. Piece by piece, particle by particle, 
 		name = "Mining Pocket Guide No.2"
 		icon_state = "minerguide"
 		info = {"
-				Howdy, partner!  Welcome to the wild world of mining!  Now, before you get started, there’s a few things greenhorns like you are gonna have to learn.  Wouldn’t want you driftin’ out there like some space tumbleweed!
+				Howdy, partner!  Welcome to the wild world of mining!  Now, before you get started, thereï¿½s a few things greenhorns like you are gonna have to learn.  Wouldnï¿½t want you driftinï¿½ out there like some space tumbleweed!
 
 		Equipment
-		The most important part of the job!  A miner’s equipment lets you safely brave outer space and collect sweet, sweet ores and gems.  You have a full set ready for you in your locker, and on the racks nearby.  Slap all of that stuff on ya, and you’re ready to go!  Just be sure to turn your oxygen on.  Here’s a few more pointers:
+		The most important part of the job!  A minerï¿½s equipment lets you safely brave outer space and collect sweet, sweet ores and gems.  You have a full set ready for you in your locker, and on the racks nearby.  Slap all of that stuff on ya, and youï¿½re ready to go!  Just be sure to turn your oxygen on.  Hereï¿½s a few more pointers:
 
 
 		Holding an ore scoop with a satchel placed inside will pick up anything valuable you mine as you walk over it!
@@ -3044,22 +3044,22 @@ I'm being taken somewhere. I can feel it. Piece by piece, particle by particle, 
 		Those concussive mines will get slapped onto any mineable surface you bump into, so get the heck outta the way!
 		Your geological scanner will help you find those sweet sweet gems as well as point out any dangers, hinderances, or anomalies in the rock!
 		That big honkin circular-ish device is the mining magnet!  Use the purple-screened computer nearby to summon asteroids to mine.  It can also scan the rock for you!  Yahoo!
-		There’s a long range telescopey thingy for finding asteroids with mostly one type of ore, and weird shit!  It works via triangulatin’ a signal.
+		Thereï¿½s a long range telescopey thingy for finding asteroids with mostly one type of ore, and weird shit!  It works via triangulatinï¿½ a signal.
 		Coworkers
-		Mining can be a huge help to other departments, so let’s get to know ‘em!
-		Your boss, the Chief Engineer, keeps the station running!  Listen to them if they have any orders, but generally they’ll be more concerned with the engine.
-		The Quartermasters will LOVE you if you send them those juicy ores and gems, and you’ll help boost the station budget so y’all can afford some fancy hats!  Yeehaw!
+		Mining can be a huge help to other departments, so letï¿½s get to know ï¿½em!
+		Your boss, the Chief Engineer, keeps the station running!  Listen to them if they have any orders, but generally theyï¿½ll be more concerned with the engine.
+		The Quartermasters will LOVE you if you send them those juicy ores and gems, and youï¿½ll help boost the station budget so yï¿½all can afford some fancy hats!  Yeehaw!
 		Robotics can also use ores and gems, and sending some over is appreciated!
 		DANGERS
-		Life isn’t all fun and games on the mining frontier!  Here’s some stuff to watch out for.
-		WEAR YOUR DANG SPACE SUIT AND PUT YOUR OXYGEN ON YOU WILL DIE OUT THERE IF YA DON’T YA DURN FOOL!  Also, your oxygen can run out!  If you see a little red O2 icon pop up and you start gaspin’, get inside and take that jetpack off, it’s done!  Stick it on an air or oxygen canister, pump up the pressure, and flick the switch, should filler up!
-		Some ore is RADIOACTIVE!  This means a lot of hard-to-heal damage over time, and you can tell you’ve got it if a little green man pops up in the upper right corner, under your health.  STOP what you are doing ASAP and get to a doc, pronto!
-		EXPLOSIONS!  Your friend and enemy!  Some ore is pretty naturally volatile, and will go BOOM unless handled carefully!  There’s also sometimes pockets of gas that will glow briefly before detonating, if you see a glow, it’s time ta go!  Keep an eye out for areas marked with a red “!” when you scan that sucker.
+		Life isnï¿½t all fun and games on the mining frontier!  Hereï¿½s some stuff to watch out for.
+		WEAR YOUR DANG SPACE SUIT AND PUT YOUR OXYGEN ON YOU WILL DIE OUT THERE IF YA DONï¿½T YA DURN FOOL!  Also, your oxygen can run out!  If you see a little red O2 icon pop up and you start gaspinï¿½, get inside and take that jetpack off, itï¿½s done!  Stick it on an air or oxygen canister, pump up the pressure, and flick the switch, should filler up!
+		Some ore is RADIOACTIVE!  This means a lot of hard-to-heal damage over time, and you can tell youï¿½ve got it if a little green man pops up in the upper right corner, under your health.  STOP what you are doing ASAP and get to a doc, pronto!
+		EXPLOSIONS!  Your friend and enemy!  Some ore is pretty naturally volatile, and will go BOOM unless handled carefully!  Thereï¿½s also sometimes pockets of gas that will glow briefly before detonating, if you see a glow, itï¿½s time ta go!  Keep an eye out for areas marked with a red ï¿½!ï¿½ when you scan that sucker.
 		EVERYTHING ELSE
-		If’n none of this answered yer questions, check out the wiki!  https://wiki.ss13.co/Guide_to_Mining
-		That should be all ya need to learn yerself to have more fun minin’ than a baby bee in a butter bucket!  Now get out there and get that ore!   YEEEHAW!
+		Ifï¿½n none of this answered yer questions, check out the wiki!  https://wiki.ss13.co/Guide_to_Mining
+		That should be all ya need to learn yerself to have more fun mininï¿½ than a baby bee in a butter bucket!  Now get out there and get that ore!   YEEEHAW!
 
-		-”Prospector” Peter Sans-Culottes
+		-ï¿½Prospectorï¿½ Peter Sans-Culottes
 
 
 		"}
@@ -3074,13 +3074,13 @@ I'm being taken somewhere. I can feel it. Piece by piece, particle by particle, 
 	    <br><b>Part One, prepping the workplace</b>
 	    <br>So right off the bat, you should get yourself familiarized with your surroundings. Nearby you should find a locked Mixology locker or a crate of similar proportions, within are the tools of your trade, inside you can find a toxin medical kit, which is used to treat poisoning, some large beakers, glassware boxes which contain drinking glasses, and a hand labeler for naming your drinks. Somewhere nearby you can also find some Calomel autoinjectors, a powerful purgative for those moments when somebody <b><i>Really</i></b> had too much to drink.
 	    <br>
-	    <br>Exiting your office you should eventually find yourself your main work area, the Bar. Here you can find every tool you need to mix up any drink imaginable. If you have worked within the Research department you might notice all of these are very similar, and that's true. Truth is, being a Bartender is very similar to being a chemistry. Main difference being people drink you concoctions (mostly) voluntarily. On this side of the Bar table you can also find those three dispensers I told ya about earlier, those being the Alcohol, Soda and Chemical Dispenser. You can also find an espresso machine here for those fancy types who can’t handle a real drink, and a glassware recycler which can be filled with glass objects in order to create new fancy glassware for your Bar.
+	    <br>Exiting your office you should eventually find yourself your main work area, the Bar. Here you can find every tool you need to mix up any drink imaginable. If you have worked within the Research department you might notice all of these are very similar, and that's true. Truth is, being a Bartender is very similar to being a chemistry. Main difference being people drink you concoctions (mostly) voluntarily. On this side of the Bar table you can also find those three dispensers I told ya about earlier, those being the Alcohol, Soda and Chemical Dispenser. You can also find an espresso machine here for those fancy types who canï¿½t handle a real drink, and a glassware recycler which can be filled with glass objects in order to create new fancy glassware for your Bar.
 	    <br><hr>
 	    <br><b>Part Two, preparing the drinks</b>
 	    <br>While your main job is to mix drinks, people nowadays are so busy they barely take the time to inspect your well made drinks, remember the first taste is with the eyes and luckily you are supplied with various tools to make those drinks beautiful. These include a box of tiny umbrellas, fruit wedges and little doodads like celery sticks, cherries and olives. In addition the glassware recycler can create a multitude of different glass types such as, cocktail glasses, old fashioned lowball glasses, shot glasses, drinking glasses and a bunch more stuff like entire pitches and plates.
 	    <br><hr>
 	    <b>Part Three, defending the bar and beyond the drink dispenser</b>
-	    <br>Look at that, now you know the basics. While normally the bar is a fairly peaceful place sometimes people have a bad day or made poor decisions and choose to take it out on your patrons, luckily for you, a armory grade riot shotgun has been issued to you in order to silence these rough housers. Be warned though, you don’t formally have a gun licence on the station and the robots might not take kindly to you luggin it around.
+	    <br>Look at that, now you know the basics. While normally the bar is a fairly peaceful place sometimes people have a bad day or made poor decisions and choose to take it out on your patrons, luckily for you, a armory grade riot shotgun has been issued to you in order to silence these rough housers. Be warned though, you donï¿½t formally have a gun licence on the station and the robots might not take kindly to you luggin it around.
 	    <br>
 	    <br>And now, if you are still feeling lost here is a small list of the most commonly ordered drinks by crew.
 	    <br>
@@ -3091,7 +3091,7 @@ I'm being taken somewhere. I can feel it. Piece by piece, particle by particle, 
 	    <br>Sex on the Beach: Screwdriver + Cranberry Juice
 	    <br>Whiskey Sour: Bourbon + Lemonade
 	    <br>
-	    <br>Now if you still feel like you can do better, maybe it might be in your best interest to do some real Mixology and try your hand at discovering some of the drinks NT doesn’t want you to know about.
+	    <br>Now if you still feel like you can do better, maybe it might be in your best interest to do some real Mixology and try your hand at discovering some of the drinks NT doesnï¿½t want you to know about.
 	    <br>
 	    <br>Dragons Breath: Spicy, Alcoholic Liquid Firewater, fairly safe after new mixing regulations came into play but still has a very slight chance to instantly turn you to dust when drinking it.
 	    <br>Freeze: Liquid Hypothermia, somehow extremely cold even at if you heat it to 1000 kelvin, like Dragons Breath it has a very slight chance to turn you into an ice statue.
@@ -3285,3 +3285,103 @@ soon the light of the unwaking will rise and the shining ones will not be prepar
 		if (voidMessage)
 			boutput(wearer, "[voidMessage]")
 		return
+
+/obj/item/paper/book/custom //custom book parent, just to avoid cluttering up normal books
+	var/custom_cover = 0 //if 1, goes thru with the build custom icon process
+	var/book_cover = "" //what cover does our book have
+	var/cover_color = "#FFFFFF" //white by default, what colour will our book be?
+	var/cover_symbol = "" //what symbol is on our front cover?
+	var/symbol_color = "#FFFFFF" //white by default, if our symbol is colourable, what colour is it?
+	var/cover_flair = "" //whats the "flair" thing on the book?
+	var/flair_color = "#FFFFFF" //white by default, whats the color of the flair (if its colorable)?
+	var/symbol_colorable = 0 //this is a bugfix for non-colourable symbols being coloured
+	var/flair_colorable = 0 //this is a bugfix for non-colourable flairs being coloured
+	var/ink_color = "#000000" //what color is the text written in?
+
+	proc/build_custom_book()
+		if (src.custom_cover)
+			src.icon = 'icons/obj/custom_books.dmi'
+			src.icon_state = "paper"
+			if (src.cover_color)
+				var/image/I = SafeGetOverlayImage("cover", src.icon, "base-colorable")
+				I.color = src.cover_color
+				src.UpdateOverlays(I, "cover")
+			if (src.cover_symbol)
+				var/image/I = SafeGetOverlayImage("symbol", src.icon, "symbol-[cover_symbol]")
+				if (src.symbol_colorable)
+					I.color = src.symbol_color
+				src.UpdateOverlays(I, "symbol")
+			if (src.cover_flair)
+				var/image/I = SafeGetOverlayImage("flair", src.icon, "flair-[cover_flair]")
+				if (src.flair_colorable)
+					I.color = flair_color
+				src.UpdateOverlays(I, "flair")
+		else
+			if (book_cover == "bible")
+				src.icon = 'icons/obj/storage.dmi'
+			src.icon_state = src.book_cover
+		src.info = "<span style=\"color:[src.ink_color]\">[src.info]</span>"
+
+/*			else
+				if (book_cover in non_writing_icons) //for our non-writing.dmi icons
+					switch (book_cover)
+						if ("bible")
+							B.icon = 'icons/obj/storage.dmi'
+							B.icon_state = book_cover
+				else
+					B.icon_state = book_cover
+		else
+			B.icon_state = "book0"*/
+
+	/*
+	var/book_amount = 0 //how many books to make?
+	var/book_cover = "" //what cover design to use?
+	var/book_info = "" //what text will the made books have?
+	var/book_info_raw = "" // raw version of the text, for editing.
+	var/book_name = "" //whats the made books name?
+	var/info_len_lim = 64 //64 character titles/author names max
+	var/book_author = "" //who made the book?
+	var/ink_color = "" //what color is the text written in?
+	var/list/cover_designs = list("Grey", "Dull red", "Red", "Blue", "Green", "Yellow", "Dummies", "Robuddy", "Skull", "Latch", "Bee",\
+	"Albert", "Surgery", "Law", "Nuke", "Rat", "Pharma", "Bar") //list of covers to choose from
+	var/list/non_writing_icons = list("bible") //just the bible for now. !!!add covers to this list if their icon file isnt icons/obj/writing.dmi!!!
+
+	var/cover_color = "#FFFFFF" //white by default, what colour will our book be?
+	var/cover_symbol = "" //what symbol is on our front cover?
+	var/symbol_color = "#FFFFFF" //white by default, if our symbol is colourable, what colour is it?
+	var/cover_flair = "" //whats the "flair" thing on the book?
+	var/flair_color = "#FFFFFF" //white by default, whats the color of the flair (if its colorable)?
+	var/symbol_colorable = 0 //this is a bugfix for non-colourable symbols being coloured
+	var/flair_colorable = 0 //this is a bugfix for non-colourable flairs being coloured
+	*/
+
+/*
+			if (book_cover)
+				if (book_cover == "custom")
+					B.icon = 'icons/obj/custom_books.dmi'
+					B.icon_state = "paper"
+					if (cover_color) //should always be yes
+						var/image/I = SafeGetOverlayImage("cover", B.icon, "base-colorable")
+						I.color = cover_color
+						B.UpdateOverlays(I, "cover")
+					if (cover_symbol)
+						var/image/I = SafeGetOverlayImage("symbol", B.icon, "symbol-[cover_symbol]")
+						if (symbol_colorable)
+							I.color = symbol_color
+						B.UpdateOverlays(I, "symbol")
+					if (cover_flair)
+						var/image/I = SafeGetOverlayImage("flair", B.icon, "flair-[cover_flair]")
+						if (flair_colorable)
+							I.color = flair_color
+						B.UpdateOverlays(I, "flair")
+				else
+					if (book_cover in non_writing_icons) //for our non-writing.dmi icons
+						switch (book_cover)
+							if ("bible")
+								B.icon = 'icons/obj/storage.dmi'
+								B.icon_state = book_cover
+					else
+						B.icon_state = book_cover
+			else
+				B.icon_state = "book0"
+				*/
