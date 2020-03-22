@@ -3286,26 +3286,14 @@ soon the light of the unwaking will rise and the shining ones will not be prepar
 			boutput(wearer, "[voidMessage]")
 		return
 
-/obj/item/paper/book/testing_1
-	name = "testing 1"
-	desc = "testtest"
-	icon_state = "torpedo"
-	info = {"testinggggggggggggggg 1"}
-
-/obj/item/paper/book/testing_2
-	name = "testing 2"
-	desc = "test"
-	icon_state = "cargoguide"
-	info = {"testing testing testing testing"}
-
-/obj/item/paper/book/custom/testing_3
+/obj/item/paper/book/custom/example_1
 	name = "testing 3"
 	desc = "afnsanf"
 	book_cover = "redbook"
 	ink_color = "#FE2200"
-	info = {"ass ass ass ass day day day day"}
+	info = {"this text is red"}
 
-/obj/item/paper/book/custom/testing_4
+/obj/item/paper/book/custom/example_2
 	name = "testing 4"
 	desc = "screaaaaaaaaaaaaam"
 	custom_cover = 1

@@ -625,11 +625,11 @@ var/global/current_state = GAME_STATE_WORLD_INIT
 				bank_earnings.new_balance = player.client.persistent_bank
 				bank_earnings.Subscribe( player.client )
 
-			//save persistent bookshelf contents to a file
-	for(var/obj/bookshelf/B in world) //replace this with palis cool by_type[/obj/bookshelf/persistent] thing, idk how to format it tho so im leaving it
+	//save persistent bookshelf contents to a file
+	for(var/obj/bookshelf/B in world) //replace this with palis by_type[/obj/bookshelf/persistent] thing, idk how to format it tho so sorry youll probably have to rework it
 		if (istype(B, /obj/bookshelf/persistent))
 			var/obj/bookshelf/persistent/P = B
-			P.file_curr_books(P.build_curr_contents())
+			P.build_curr_contents()
 
 	SPAWN_DBG(0)
 		logTheThing("debug", null, null, "Zamujasa: [world.timeofday] creds/new")
