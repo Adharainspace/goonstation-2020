@@ -13,6 +13,7 @@
 	var/datum/abilityHolder/abilityHolder = null
 	var/datum/bioHolder/bioHolder = null
 	var/datum/targetable/targeting_spell = null
+	var/obj/ability_button/targeting_button = null
 
 	var/last_move_trigger = 0
 
@@ -309,6 +310,11 @@
 		if (zone_sel.master == src)
 			zone_sel.master = null
 	zone_sel = null
+
+	if (src.targeting_spell)
+		src.targeting_spell = null
+	if (src.targeting_button)
+		src.targeting_button = null
 
 	mobs.Remove(src)
 	mind = null
@@ -710,7 +716,7 @@
 		src.client.mouse_pointer_icon = cursor
 
 /mob/proc/update_cursor()
-	if (src.targeting_spell)
+	if (src.targeting_spell || src.targeting_button)
 		if(client)
 			src.set_cursor(cursors_selection[client.preferences.target_cursor])
 			return
@@ -1090,6 +1096,40 @@
 				if((S.ignore_sticky_cooldown && !S.cooldowncheck()) || (S.sticky && S.cooldowncheck()))
 					if(src)
 						src.targeting_spell = S
+						src.update_cursor()
+		return 100
+
+	if (src.targeting_button)
+		var/obj/ability_button/B = src.targeting_button
+
+		src.targeting_button = null
+		src.update_cursor()
+
+		if (!B.target_anything && !ismob(target)) //sorry i know its duplicate code but im small brain and couldnt think of a better way
+			src.show_text("You have to target a person.", "red")
+			if(B.sticky)
+				src.targeting_button = B
+				src.update_cursor()
+			return 100
+		if (!isturf(target.loc) && !isturf(target))
+			if(B.sticky)
+				src.targeting_button = B
+				src.update_cursor()
+			return 100
+		if (istype(target, /obj/ability_button) || istype(target, B))
+			return 100
+		if (!B.ability_allowed())
+			if(B.sticky)
+				src.targeting_button = B
+				src.update_cursor()
+			return 100
+		actions.interrupt(src, INTERRUPT_ACTION)
+		SPAWN_DBG(0)
+			B.execute_ability(target)
+			if(B)
+				if((B.sticky && B.ability_allowed()))
+					if(src)
+						src.targeting_button = B
 						src.update_cursor()
 		return 100
 
