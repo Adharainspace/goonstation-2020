@@ -724,18 +724,23 @@
 
 	var/targeted = 0 //does clicking this let you click on something to target it?
 	var/target_anything = 0 //can you target any atom, not just people
-	var/sticky = 0 //when you target something and do the ability, can you target again without needing to reclick on the ability?
+//	var/cancel = 0 //a workaround bc i cant fuckin figure out how to get this to work
 
 	var/obj/item/the_item = null
 	var/mob/the_mob = null
 
 	Click()
+		boutput(world, "1")
 		if(src.ability_allowed())
+			boutput(world, "2")
 			if (src.targeted)
+				boutput(world, "3")
 				src.the_mob.targeting_button = src
 				src.the_mob.update_cursor()
+				boutput(world, "5")
 			else
 				src.execute_ability()
+				boutput(world, "6")
 
 	attackby()
 		return
@@ -793,10 +798,8 @@
 	proc/handle_cooldown() //copy and pasted from Click()
 		if (src.cooldown)
 			src.last_use_time = world.time
-
-			//I'm hideous, don't look at meeeeeee!
-			SPAWN_DBG(src.cooldown) //maybe turn into a sleep? idk tho
-				src.on_cooldown()
+			sleep(src.cooldown)
+			src.on_cooldown()
 
 /obj/item/space_thing/ability_thing
 	name = "ability_thing"
@@ -815,8 +818,9 @@
 	name = "testing"
 	icon_state = "jeton"
 	targeted = 1
-	target_anything = 1
 
 	execute_ability(var/atom/target)
-		boutput(src.the_mob, "[target] fuck 2")
+		if (target == src)
+			return
+		boutput(src.the_mob, "[target] fuck")
 		..()

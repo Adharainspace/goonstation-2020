@@ -1100,37 +1100,29 @@
 		return 100
 
 	if (src.targeting_button)
+		boutput(world, "a")
 		var/obj/ability_button/B = src.targeting_button
 
 		src.targeting_button = null
 		src.update_cursor()
 
-		if (!B.target_anything && !ismob(target)) //sorry i know its duplicate code but im small brain and couldnt think of a better way
+		if (istype(target, /obj/ability_button)) //cant target ability buttons
+			boutput(world, "aa1")
+			return 100
+		if (!B.target_anything && !ismob(target))
+			boutput(world, "aa2")
 			src.show_text("You have to target a person.", "red")
-			if(B.sticky)
-				src.targeting_button = B
-				src.update_cursor()
 			return 100
 		if (!isturf(target.loc) && !isturf(target))
-			if(B.sticky)
-				src.targeting_button = B
-				src.update_cursor()
-			return 100
-		if (istype(target, /obj/ability_button) || istype(target, B))
+			boutput(world, "aa3")
 			return 100
 		if (!B.ability_allowed())
-			if(B.sticky)
-				src.targeting_button = B
-				src.update_cursor()
+			boutput(world, "aa4")
 			return 100
 		actions.interrupt(src, INTERRUPT_ACTION)
 		SPAWN_DBG(0)
+			boutput(world, "aaa")
 			B.execute_ability(target)
-			if(B)
-				if((B.sticky && B.ability_allowed()))
-					if(src)
-						src.targeting_button = B
-						src.update_cursor()
 		return 100
 
 	if (abilityHolder)
