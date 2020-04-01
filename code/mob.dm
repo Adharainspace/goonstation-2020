@@ -1055,7 +1055,7 @@
 /mob/proc/click(atom/target, params)
 	actions.interrupt(src, INTERRUPT_ACT) //Definitely not the best place for this.
 
-	if (src.targeting_spell)
+	if (src.targeting_spell) //IDEALLY THIS SHOULD BE REWORKED SO THAT THIS AND TARGETING_BUTTON SHARE A VAR
 		var/datum/targetable/S = src.targeting_spell
 
 		src.targeting_spell = null
@@ -1099,30 +1099,29 @@
 						src.update_cursor()
 		return 100
 
-	if (src.targeting_button)
-		boutput(world, "a")
+	if (src.targeting_button) //IDEALLY THIS SHOULD BE REWORKED SO THAT THIS AND TARGETING_SPELL SHARE A VAR
 		var/obj/ability_button/B = src.targeting_button
 
-		src.targeting_button = null
-		src.update_cursor()
-
-		if (istype(target, /obj/ability_button)) //cant target ability buttons
-			boutput(world, "aa1")
-			return 100
-		if (!B.target_anything && !ismob(target))
-			boutput(world, "aa2")
+		if (!B.target_anything && !ismob(target) && !istype(target, B))
 			src.show_text("You have to target a person.", "red")
+			src.targeting_button = null
+			src.update_cursor()
 			return 100
-		if (!isturf(target.loc) && !isturf(target))
-			boutput(world, "aa3")
+		if (!isturf(target.loc) && !isturf(target) && !istype(target, B))
+			src.targeting_button = null
+			src.update_cursor()
 			return 100
 		if (!B.ability_allowed())
-			boutput(world, "aa4")
+			src.targeting_button = null
+			src.update_cursor()
+			return 100
+		if (istype(target, B))
 			return 100
 		actions.interrupt(src, INTERRUPT_ACTION)
 		SPAWN_DBG(0)
-			boutput(world, "aaa")
 			B.execute_ability(target)
+			src.targeting_button = null
+			src.update_cursor()
 		return 100
 
 	if (abilityHolder)

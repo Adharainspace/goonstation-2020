@@ -709,7 +709,10 @@
 
 	//please call back to parent to trigger handle cooldown
 
-/obj/ability_button
+//HEY this should be moved over to use /obj/screen/ability_button but it breaks a few paths and needs different procs and a lot of stuff to be handled differently
+//and im not doing that sorry x.x just out of my depth
+
+/obj/ability_button 
 	name = "baseButton"
 	desc = ""
 	icon = 'icons/misc/abilities.dmi'
@@ -724,23 +727,21 @@
 
 	var/targeted = 0 //does clicking this let you click on something to target it?
 	var/target_anything = 0 //can you target any atom, not just people
-//	var/cancel = 0 //a workaround bc i cant fuckin figure out how to get this to work
 
 	var/obj/item/the_item = null
 	var/mob/the_mob = null
 
-	Click()
-		boutput(world, "1")
+	RawClick()
 		if(src.ability_allowed())
-			boutput(world, "2")
 			if (src.targeted)
-				boutput(world, "3")
+				if (src.the_mob.targeting_button)
+					src.the_mob.targeting_button = null
+					src.the_mob.update_cursor()
+					return
 				src.the_mob.targeting_button = src
 				src.the_mob.update_cursor()
-				boutput(world, "5")
 			else
 				src.execute_ability()
-				boutput(world, "6")
 
 	attackby()
 		return
